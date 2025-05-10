@@ -50,7 +50,6 @@ export const BurgerConstructor: FC = () => {
       ];
       const data = await orderBurgerApi(ingredientIds);
       dispatch(setOrderModalData(data.order));
-      dispatch(resetConstructor());
     } catch (e) {
       console.error('Ошибка при оформлении заказа:', e);
     } finally {
@@ -59,7 +58,7 @@ export const BurgerConstructor: FC = () => {
   }, [constructorItems, orderRequest, dispatch, navigate]);
 
   const closeOrderModal = useCallback(() => {
-    dispatch(setOrderModalData(null));
+    dispatch(resetConstructor());
   }, [dispatch]);
 
   const price = useMemo(

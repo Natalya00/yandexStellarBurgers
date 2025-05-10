@@ -418,3 +418,9 @@ export const {
 export const { resetUser } = userSlice.actions;
 
 export default store;
+
+export { rootReducer };
+
+export { constructorSlice };
+
+export { ingredientsSlice };
