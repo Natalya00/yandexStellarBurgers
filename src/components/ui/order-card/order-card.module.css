@@ -1,0 +1,128 @@
+.card {
+  background: #1C1C21;
+  border-radius: 40px;
+  padding: 24px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.ingredients {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.ingredient {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #131316;
+  border: 2px solid #801AB2;
+  margin-right: -16px;
+  overflow: hidden;
+}
+
+.ingredient img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.more {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(19, 19, 22, 0.6);
+  border: 2px solid #801AB2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order {
+  display: block;
+  text-decoration: none;
+  color: unset;
+  background-color: #1c1c21;
+  border-radius: 40px;
+  min-width: 576px;
+  box-sizing: border-box;
+}
+
+.order_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order_name {
+  text-align: left;
+}
+
+.order_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order_total {
+  vertical-align: top;
+}
+
+.img_wrap {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: #801ab3 solid 2px;
+  background-color: #1c1c21;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.img_wrap:nth-child(n + 2) {
+  position: relative;
+  right: 25px;
+}
+
+.img {
+  position: relative;
+  right: 25px;
+  width: 112px;
+  height: 56px;
+}
+
+.remains {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ingredients_price_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.order_price {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}

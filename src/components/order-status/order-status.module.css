@@ -1,0 +1,15 @@
+.done {
+  color: #00CCCC;
+}
+
+.pending {
+  color: #E52B1A;
+}
+
+.created {
+  color: #F2F2F3;
+}
+
+.cancelled {
+  color: #E52B1A;
+} 
